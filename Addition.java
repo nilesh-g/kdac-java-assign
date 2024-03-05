@@ -1,7 +1,12 @@
+import java.util.Scanner;
 
 class Addition {
     public static void main(String[] args) {
-        int a = 22, b = 7, c;
+        Scanner sc = new Scanner(System.in);
+        int a, b, c;
+        System.out.println("Enter two numbers: ");
+        a = sc.nextInt();
+        b = sc.nextInt();
         c = a + b;
         System.out.println("Addition: " + c);
     }
